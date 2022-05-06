@@ -157,9 +157,9 @@ target_link_libraries(${LIBRARY_NAME}
             ${CUDA_CUDART_LIBRARY}
 )
 
-add_definitions(
-        -Wno-deprecated-declarations
-)
+# add_definitions(
+#         -Wno-deprecated-declarations
+# )
 
 
 ################################################################################

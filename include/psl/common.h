@@ -26,10 +26,10 @@ inline double round(double val)
 
 namespace std
 {
-inline long long atoll(const char* str)
-{
-	return (long long) _atoi64(str);
-}
+// inline long long atoll(const char* str)
+// {
+// 	return (long long) _atoi64(str);
+// }
 }
 
 #endif
