@@ -23,7 +23,9 @@ endif()
 
 find_package(Boost REQUIRED COMPONENTS system filesystem)
 
-if(NOT CMAKE_CUDA_COMPILER)
+find_package(CUDA)
+
+if (NOT CUDA_FOUND)
     message(STATUS "CUDA not found. Skipping PSL package...\n")
     return()
 endif()
